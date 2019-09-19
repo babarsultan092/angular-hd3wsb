@@ -7,6 +7,16 @@
       {{ product.name }}
     </a>
   </h3>
+<select id="qty">
+<option value='0'>Select Quantity</option>  
+<option value='1'>ONE</option>
+<option value='2'>TWO</option>
+<option value='3'>THREE</option>
+<option value='4'>FOUR</option>
+<option value='5'>FIVE</option>
+<option value='6'>SIX</option>
+</select>
+  <br>
 
   <p *ngIf="product.description">
     Description: {{ product.description }}
